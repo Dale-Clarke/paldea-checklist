@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+	font-size: 48px;
+	font-family: "Nunito";
+	font-weight: 700;
+	margin: 0;
+	background: #eee;
+}
+#title{
+	top: 0;
+	position: sticky;
+	padding: 10px 10px 10px 20px;
+	z-index: 2;
+	background: #b9ebb9;
+	border-bottom: 4px solid white;
+}
+#pokeList{
+	margin: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.pokeImg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	padding: 10px;
+	background: #b9ebb9;
+	border: 3px solid white;
+	border-radius: 10px;
+	filter: grayscale:(100%);
+	transition: filter 0.5s ease;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 3px;
+}
+.pokeImg img{
+	max-width: 100%;
+	max-height: 100%;
+
+}
+.grayOn{
+	filter: grayscale(100%);
+}
+
